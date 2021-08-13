@@ -1,0 +1,83 @@
+<!--Day 2 Assignment
+
+1. Create a html file that contains a table with name, subject, city, marks columns and 3 rows of data .
+
+2. Create a form with name, dob, city, fields with validation-->
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Table and Forms</title>
+    </head>
+    <body style="background-color: rgb(0, 183, 255);">
+
+        <!-- table -->
+
+        <h1>1. Create a html file that contains a table with name, subject, city, marks columns and 3 rows of data .</h1>
+
+        <table border="1" cellspacing="2" cellpadding="20px" bgcolor="white" align="center">
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>SUBJECT</th>
+                    <th>CITY</th>
+                    <th>MARKS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Shreyas</td>
+                    <td>Science</td>
+                    <td>Mumbai</td>
+                    <td>99</td>
+                </tr>
+                <tr>
+                    <td>Shriya</td>
+                    <td>English</td>
+                    <td>Kashmir</td>
+                    <td>92</td>
+                </tr>
+                <tr>
+                    <td>Meghna</td>
+                    <td>Social Science</td>
+                    <td>Lonavala</td>
+                    <td>97</td>
+                </tr>
+            </tbody>
+        </table>
+<br><br><hr>
+
+<h1>2. Create a form with name, dob, city, fields with validation</h1>
+
+        <form>
+            Enter Name :
+            <input type="text" id="name" placeholder="Enter Name" required />
+            <br><br>
+            Enter Email :
+            <input type="email" id="mail" placeholder="Enter mail" required />
+            <br><br>
+            Date of Birth :
+            <input type="date" id="dob" required/>
+            <br><br>
+            Enrter City: 
+            <select >
+                <option>Select City</option>
+                <option>Mumbai</option>
+                <option>Pune</option>
+                <option>Delhi</option>
+                <option>Nashik</option>
+                <option>Other</option>
+            </select></p>
+            Gender :<input type="radio" required> Male
+            <input type="radio" required> Female
+            <br><br>
+            Enter Mobile Number : 
+            <input type="number"/><br><br>
+            <input type="checkbox">I hereby declare that the information given in this form 
+            is true and correct to the best of my knowledge.<br><br>
+            <button type="submit">Submit</button> 
+            <button type="reset" >Reset</button>
+
+         </form>
+
+    </body>
+</html>
